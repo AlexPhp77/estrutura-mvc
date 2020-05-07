@@ -42,10 +42,11 @@ class Core{
         	$atualAction = 'index';
         }
 		
+		//$c = new $atualController(); 
 		$c->$atualAction($params);// testar
 		//em vez
 		//call_user_func_array(array($c, $atualAction), $params);
-        echo '<br/>'; 
-		print_r($url);
+        //echo '<br/>'; 
+		//print_r($url);
 	}
 }

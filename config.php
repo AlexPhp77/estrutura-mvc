@@ -30,4 +30,3 @@ class Conexao{
 	}
 }
 
-$c = new Conexao(); 
